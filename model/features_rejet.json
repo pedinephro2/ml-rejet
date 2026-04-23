@@ -1,0 +1,16 @@
+[
+  "creatinine_umoll",
+  "uree_mmoll",
+  "proteinurie_24h",
+  "tacrolimus_taux_ngml",
+  "pression_arterielle_sys",
+  "pression_arterielle_dia",
+  "score_banff",
+  "age_mois",
+  "poids_kg",
+  "jours_post_greffe",
+  "dfg_ml_min",
+  "hemoglobine_gdl",
+  "crp_mgl",
+  "variation_creatinine"
+]

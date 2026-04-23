@@ -1,0 +1,102 @@
+{
+  "best_model": "RandomForest",
+  "cv_results": {
+    "LogisticRegression": {
+      "accuracy": 0.9962421383647799,
+      "roc_auc": 0.9999367088607596,
+      "f1": 0.9962730025623108,
+      "sensitivity": 1.0,
+      "precision": 0.9926219512195121,
+      "specificity": 0.9924842767295599
+    },
+    "RandomForest": {
+      "accuracy": 0.9987421383647799,
+      "roc_auc": 1.0,
+      "f1": 0.9987421383647799,
+      "sensitivity": 1.0,
+      "precision": 0.9974999999999999,
+      "specificity": 0.9974842767295597
+    },
+    "GradientBoosting": {
+      "accuracy": 0.9798899371069183,
+      "roc_auc": 0.9982456487341771,
+      "f1": 0.9799359274886701,
+      "sensitivity": 0.9824367088607595,
+      "precision": 0.9776187956783818,
+      "specificity": 0.9773431653530771
+    },
+    "XGBoost": {
+      "accuracy": 0.9924685534591194,
+      "roc_auc": 0.9999054588607595,
+      "f1": 0.9925300828254414,
+      "sensitivity": 0.9974683544303797,
+      "precision": 0.9877122568694041,
+      "specificity": 0.9874687524878591
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "crp_mgl",
+      "shap_importance": 0.1908
+    },
+    {
+      "feature": "proteinurie_24h",
+      "shap_importance": 0.1385
+    },
+    {
+      "feature": "variation_creatinine",
+      "shap_importance": 0.0605
+    },
+    {
+      "feature": "score_banff",
+      "shap_importance": 0.0605
+    },
+    {
+      "feature": "uree_mmoll",
+      "shap_importance": 0.0443
+    },
+    {
+      "feature": "creatinine_umoll",
+      "shap_importance": 0.0282
+    },
+    {
+      "feature": "dfg_ml_min",
+      "shap_importance": 0.0182
+    },
+    {
+      "feature": "hemoglobine_gdl",
+      "shap_importance": 0.0128
+    },
+    {
+      "feature": "tacrolimus_taux_ngml",
+      "shap_importance": 0.0039
+    },
+    {
+      "feature": "pression_arterielle_dia",
+      "shap_importance": 0.0025
+    },
+    {
+      "feature": "pression_arterielle_sys",
+      "shap_importance": 0.0022
+    },
+    {
+      "feature": "jours_post_greffe",
+      "shap_importance": 0.002
+    },
+    {
+      "feature": "poids_kg",
+      "shap_importance": 0.002
+    },
+    {
+      "feature": "age_mois",
+      "shap_importance": 0.0017
+    }
+  ],
+  "original_data_metrics": {
+    "accuracy": 1.0,
+    "roc_auc": 1.0,
+    "f1": 1.0,
+    "sensitivity": 1.0,
+    "precision": 1.0
+  }
+}
